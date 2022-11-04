@@ -1,0 +1,144 @@
+@media (min-width: 0px) and (max-width: 575px){
+    /* header start */
+    .carousel{
+        padding: 60px 0px 80px 0px;
+    }
+    .navbar .nav-link{
+        background: rgba(0,0,0,.5);
+        border-bottom: 1px solid var(--white-color);
+        padding-right: 10px;
+        display: inline-block;
+        min-width: 150px;
+        color: var(--brand-color);
+    }
+    .navbar{
+        max-height: 80px;
+        position: relative;
+        z-index: 1;
+     }
+     /* nav end  */
+
+     
+     .carousel-inner .carousel-item .carousel-title{
+        padding-top: 0px !important;
+     }
+     .carousel-inner .carousel-item .carousel-title h4{
+        font-size: 18px;
+        padding: 0px !important;
+     }
+     .carousel-inner .carousel-item .carousel-title p{
+        font-size: 14px;
+     }
+     .carousel-inner .carousel-item .carousel-img {
+        width: 50%;
+        margin: auto;
+     }
+     /* banner part end  */
+    /* header end */
+    /* feature part start */
+    .feature-section .title-section{
+        padding: 0px;
+    }
+    .feature-section .title-section h2{
+        font-size: 22px;
+    }
+    .feature-section .title-section p{
+        font-size: 14px;
+    }
+    /* feature part end */
+    /* blog part start  */
+    .contact-section .title-section h2{
+        font-size: 22px;
+    }
+    .contact-section .title-section p{
+        font-size: 14px;
+    }
+    @media (min-width: 1200px) and (max-width: 1399px){
+    .carousel .carousel-indicators [data-bs-target]{
+        width: 5px;
+    }
+    .Service-section i {
+        font-size: 40px;
+        padding: 10px;
+    }
+}
+    /* blog part end */
+}
+@media (min-width: 576px) and (max-width: 767px){
+    /* header start */
+    .carousel{
+        padding: 100px 0px 120px 0px;
+    }
+    .navbar .nav-link{
+        color: var(--brand-color);
+        background: rgba(0,0,0,.5);
+        border-bottom: 1px solid var(--white-color);
+        padding-right: 10px;
+        display: inline-block;
+        min-width: 150px;
+    }
+    .navbar{
+        max-height: 80px;
+        position: relative;
+        z-index: 1;
+     }
+     
+     .carousel{
+        padding: 0px;
+     }
+     .carousel-inner .carousel-item .carousel-title{
+        padding-top: 0px;
+     }
+     .carousel-inner .carousel-item .carousel-img {
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+     }
+     /* banner part end  */
+    /* header end */
+    /* feature part start */
+    .feature-section .title-section{
+        padding: 0px;
+    }
+    .feature-section .title-section h2{
+        font-size: 22px;
+    }
+    .feature-section .title-section p{
+        font-size: 16px;
+    }
+    /* feature part end */
+    /* blog part start  */
+    .contact-section .title-section h2{
+        font-size: 22px;
+    }
+    .contact-section .title-section p{
+        font-size: 16px;
+    }
+    /* blog part end */
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    /* header start */
+    .carousel{
+        padding: 120px 0px 140px 0px;
+    }
+    .navbar{
+        max-height: 80px;
+        position: relative;
+        z-index: 1;
+     }
+    .navbar .nav-link{
+        background: rgba(0,0,0,.5);
+        border-bottom: 1px solid var(--white-color);
+        padding-right: 10px;
+        display: inline-block;
+        min-width: 150px;
+    }
+    .carousel{
+        padding: 0px;
+    }
+    .carousel-inner .carousel-item .carousel-img{
+        width: 40%;
+        margin: auto;
+    }
+}

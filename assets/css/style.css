@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@0,400,0,700;1,400;1,700&display=swap');
+
+/* common css start  */
+:root{
+    --brand-color: #FCDB00;
+    --white-color: #fff;
+    --black-color: #000;
+    --heading-color: #485264;
+    --text-color :#9E9F9F;
+ }
+*{
+    font-family: 'PT sans', sans-serif;
+ }
+
+ a{
+    text-decoration: none;
+ }
+/* common css end */
+
+/* header part start  */
+header{
+    background: var(--brand-color);
+}
+/* nav part start  */
+.navbar-nav .nav-item .nav-link{
+    color: var(--black-color);
+    font-size: 22px;
+    font-weight: bold;
+}
+.navbar-nav .nav-item .nav-link:hover{
+ color: var(--white-color);
+}
+/* nav part end  */
+/* carousel part start */
+.carousel .carousel-indicators{
+    margin-bottom: 3rem;
+}
+.carousel .carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border-top: 0px solid;
+    border-bottom: 0px solid;
+}
+.carousel .carousel-indicators .active {
+    background: var(--white-color);
+}
+.carousel-inner .carousel-title h4{
+    font-size: 20px;
+    color: var(--heading-color);
+}
+.carousel-inner .carousel-title p{
+    color: var(--heading-color);
+}
+.carousel-inner .carousel-title i:hover{
+    color: var(--white-color);
+    transition: .3s all;
+}
+/* carousel part end */
+/* header part end */
+
+ /* Feature part start  */
+ .feature-section .title-section{
+    padding: 90px;
+ }
+ .feature-section .title-section h2{
+    font-size: 32px;
+    font-weight: bold;
+ }
+ .feature-section .title-section p{
+    font-size: 20px;
+    color: var(--heading-color);
+ }
+ .feature-section .feature-item h2{
+    font-size: 22px;
+ }
+ .feature-section .feature-item p{
+    color: var(--text-color);
+ }
+ .feature-item:hover{
+    color: var(--brand-color);
+    transition: .3s all;
+ }
+ /* Feature part end */
+
+/* contact part start  */
+.contact-section{
+    background: #000;
+}
+.contact .title-section h2{
+    color: var(--brand-color);
+    font-size: 32px;
+}
+.contact .title-section p{
+    color: var(--text-color);
+    font-size: 20px;
+}
+[type="button"]:not(:disabled), [type="reset"]:not(:disabled) [type="submit"]:not(:disabled), button:not(:disabled){
+    background: var(--brand-color);
+    color: #000;
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid var(--brand-color);
+    margin-bottom: 15px;
+}
+.btn:first-child:hover, :not(.btn-check) + .btn:hover{
+    background: var(--white-color);
+    color: #000;
+} 
+.contact-social .fa-brands{
+    background: var(--brand-color);
+    color: var(--black-color);
+    border-radius: 5px;
+    transition: .3s all;
+}
+.contact-social .fa-brands:hover{
+    background: var(--white-color);
+    color: var(--brand-color);
+} 
+/* contact part end  */
+
+/* footer part start  */
+footer{
+    background: #000;
+}
+.footer-section ul li a{
+    color: var(--white-color);
+}
+/* footer part end */
